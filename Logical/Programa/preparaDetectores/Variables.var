@@ -1,0 +1,5 @@
+VAR
+	aiDG : ARRAY[0..MAX_IDX_DETECTORES] OF INT;
+	LCRScal_DG : ARRAY[0..MAX_IDX_DETECTORES] OF LCRScal;
+	uIdx : USINT; (*Contador auxiliar*)
+END_VAR

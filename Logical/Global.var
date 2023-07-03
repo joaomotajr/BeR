@@ -1,0 +1,8 @@
+VAR
+	Transmissao : TipoTransmiter;
+	Estrutura : TipoEstrutura;
+END_VAR
+(*CONTANTES*)
+VAR CONSTANT
+	MAX_IDX_DETECTORES : USINT := 5;
+END_VAR

@@ -1,0 +1,25 @@
+VAR
+	Dosend : BOOL := TRUE;
+	Doenable : BOOL := TRUE; (*Enables FUB Instance*)
+END_VAR
+VAR CONSTANT
+	Host : STRING[80] := '201.6.243.3';
+	HostPort : UINT := 8090;
+END_VAR
+VAR
+	Responsedata : STRING[80];
+	uri : STRING[80];
+	input : BOOL;
+	output : BOOL;
+	elapsedTime : TIME;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	eStep : MaqEstados_enum;
+	iDG : USINT; (*Index atual do DG a ser enviado*)
+	sAuxiliar : STRING[80];
+	httpClient_0 : httpClient;
+	bEnviar : BOOL; (*Comando para iniciar envio*)
+	TON_0 : TON;
+	Resposta : STRING[80];
+END_VAR

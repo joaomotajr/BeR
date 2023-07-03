@@ -1,0 +1,15 @@
+VAR_CONFIG
+	::preparaDet:aiDG[1] AT %IW."X20AI8321".AnalogInput01;
+	::preparaDet:aiDG[2] AT %IW."X20AI8321".AnalogInput02;
+	::preparaDet:aiDG[3] AT %IW."X20AI8321".AnalogInput03;
+	::preparaDet:aiDG[5] AT %IW."X20AI8321".AnalogInput04;
+	::preparaDet:aiDG[4] AT %IW."X20AI8321".AnalogInput05;
+	::Estrutura.do01SinVd AT %QX."X3".DigitalOutput01;
+	::Estrutura.do02SinAm AT %QX."X3".DigitalOutput02;
+	::Estrutura.do03SinVm AT %QX."X3".DigitalOutput03;
+	::Estrutura.do04SinVd AT %QX."X3".DigitalOutput04;
+	::Estrutura.do05SinAm AT %QX."X3".DigitalOutput05;
+	::Estrutura.do06SinVm AT %QX."X3".DigitalOutput06;
+	::Estrutura.do07Buzer AT %QX."X3".DigitalOutput07;
+	::Estrutura.do08Modem AT %QX."X3".DigitalOutput08;
+END_VAR
